@@ -12,6 +12,9 @@ public class Pessoa {
 
 	@Column(nullable = false)
 	private String nome;
+	public Pessoa() {
+		
+	}
 
 	public Long getId() {
 		return id;

@@ -16,7 +16,10 @@ public class Disciplina
 	
 	@Column(nullable=false)
 	private int vagas;
-
+	
+	public Disciplina() {
+		
+	}
 	public Disciplina(Long id, String nome, int vagas) {
 		super();
 		this.id = id;

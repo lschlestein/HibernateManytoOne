@@ -14,6 +14,9 @@ public class Aluno
 	@Column(nullable = false)
 	private String nome;
 	
+	public Aluno() {
+		
+	}
 	public Long getId() {
 		return id;
 	}
